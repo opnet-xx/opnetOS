@@ -1,1 +1,5 @@
 This is my first attempt at anything in OSdev or assembly in general, so far it's just a bootloader with a simple little program. Hopefully I can get some more stuff into it and make it better.
+
+boot.asm is the source code and boot.bin is a compiled version
+
+compiled with: nasm -f bin -o boot.bin boot.asm
